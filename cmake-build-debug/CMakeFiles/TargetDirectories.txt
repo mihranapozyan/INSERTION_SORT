@@ -1,0 +1,3 @@
+C:/Users/Mihran/Desktop/GitHub/C++/Algorithms/INSERTION SORT/cmake-build-debug/CMakeFiles/INSERTION_SORT.dir
+C:/Users/Mihran/Desktop/GitHub/C++/Algorithms/INSERTION SORT/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mihran/Desktop/GitHub/C++/Algorithms/INSERTION SORT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
