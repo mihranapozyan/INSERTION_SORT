@@ -3,15 +3,24 @@
 
 #include <vector>
 
+// Template class InsertionSort accepts any data type that supports comparison (i.e., Comparable)
 template<typename T>
 class InsertionSort {
 public:
-    // Constructor that accepts a vector and sorts it immediately
-    explicit InsertionSort(std::vector<T> &a_vec)  { sort(a_vec); }
+    /**
+     * Constructor that sorts the provided vector immediately upon object creation.
+     * @param a_vec The vector to be sorted.
+     */
+    explicit InsertionSort(std::vector<T>& a_vec)  {
+        sort(a_vec); // Sort the vector as soon as the object is created
+    }
 
 private:
-    // Static method that performs the sorting algorithm
-    static void sort(std::vector<T> &a_vec);
+    /**
+     * Performs Insertion Sort on the provided vector.
+     * @param a_vec The vector to be sorted.
+     */
+    static void sort(std::vector<T>& a_vec);
 };
 
 #endif //INSERTIONSORT_H
